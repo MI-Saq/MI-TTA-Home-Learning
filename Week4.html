@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Application Form</title>
+        <script src="Application.js"></script>
+    </head>
+    <body>
+        <h1>Application Form</h1>
+        <form>
+            Full Name
+            <br>
+            <input type="text" 
+                    value=""
+                    name="uname"
+                    id="t1"/>
+            <p id="msg1"
+            style="color: red;"></p>        
+            Email Address
+            <br>
+            <input type="text" 
+                    value=""
+                    mail="umail"
+                    id="t2"/>
+            <p id="msg2"
+            style="color: red;"></p>        
+            Mobile Number
+            <br>
+            <input type="text" 
+                    value=""
+                    phone="uphone"
+                    id="t3"/>
+            <p id="msg3"
+            style="color: red;"></p>
+            Country
+            <br>
+            <input type="text" 
+                    value=""
+                    country="ucountry"
+                    id="t4"/>
+            <p id="msg4"
+            style="color: red;"></p>
+            Gender
+            <br>
+            <input type="radio" value="" gender="ugender" id="t5"/>Male <input type="radio"value="" gender="ugender" id="t5"/>Female
+            <p id="msg5"
+            style="color: red;"></p>
+            Hobbies (optional)
+            <br>
+            <input type="checkbox">Sport <input type="checkbox">Movies <input type="checkbox">Travel <input type="checkbox">Music
+            <br>
+            <br>
+            <input type="button" 
+                value="Submit"
+                onclick="show()"/>
+        </form>
+    </body>
+</html>
